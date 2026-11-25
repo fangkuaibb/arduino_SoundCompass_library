@@ -6,7 +6,7 @@ An Arduino-style library that turns the SoundCompass four-microphone ring into a
 it captures four ES7210 channels over I2S TDM, estimates the sound source angle with GCC-PHAT, and
 drives the 24 on-board RGB LEDs towards the source.
 
-![SoundCompass module](extras/images/soundcompass-module.png)
+<p align="center"><img src="extras/images/soundcompass-module.png" width="480" alt="SoundCompass module"></p>
 
 **Requires ESP32 Arduino core 3.2.0.** The localization core is shipped as a precompiled static
 library, so `esp-sr` does not have to be installed in the Arduino IDE.

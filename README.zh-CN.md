@@ -5,7 +5,7 @@
 把 SoundCompass 四麦环形模块封装成 Arduino 风格的库：通过 I2S TDM 采集 ES7210 的四路信号，
 用 GCC-PHAT 估计声源角度，并驱动板上的 24 颗 RGB 灯指向声源。
 
-![SoundCompass 模块](extras/images/soundcompass-module.png)
+<p align="center"><img src="extras/images/soundcompass-module.png" width="480" alt="SoundCompass 模块"></p>
 
 **需要 ESP32 Arduino 核心库 3.2.0。** 定位核心以预编译静态库形式提供，Arduino IDE 里
 不需要安装 `esp-sr`。
